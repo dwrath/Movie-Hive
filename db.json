@@ -1,0 +1,77 @@
+{
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Crime",
+    "Drama",
+    "Music",
+    "Adventure",
+    "History",
+    "Thriller",
+    "Animation",
+    "Family",
+    "Mystery",
+    "Biography",
+    "Action",
+    "Film-Noir",
+    "Romance",
+    "Sci-Fi",
+    "War",
+    "Western",
+    "Horror",
+    "Musical",
+    "Sport"
+  ],
+  "movies": [
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+      "title": "Training Day",
+      "vote_average": 7.469,
+      "id": 18
+    },
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//xU635vn1lMD9DWDloeuKmuhxxnQ.jpg",
+      "title": "The Emperor's New Groove",
+      "vote_average": 7.549,
+      "id": 20
+    },
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//cBFQsU1LDBEOl0Ik0cygeB6wCLE.jpg",
+      "title": "Apocalypto",
+      "vote_average": 7.55,
+      "id": 21
+    },
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+      "title": "Black Panther",
+      "vote_average": 7.394,
+      "id": 22
+    },
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "title": "Thor: Ragnarok",
+      "vote_average": 7.6,
+      "id": 23
+    },
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//ruuj6Yz9Vvyk6MI0ejRmAcnT8V5.jpg",
+      "title": "Like Mike",
+      "vote_average": 10,
+      "id": 24,
+      "genre": "",
+      "image": ""
+    },
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+      "title": "The Lion King",
+      "vote_average": 7.1,
+      "id": 25
+    },
+    {
+      "poster_path": "https://image.tmdb.org/t/p/w500//7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+      "title": "Django Unchained",
+      "vote_average": 8.163,
+      "id": 26
+    }
+  ]
+}
