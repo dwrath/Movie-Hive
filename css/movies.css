@@ -34,14 +34,17 @@ body {
 .sign-in-btn > button{
     height: 30px;
     border: 2px solid white;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px;
     color: white;
     background-color: transparent;
-    transition: transform 0.2s ease-in-out;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
 }
 .sign-up-btn > button{
     height: 30px;
     border: 2px solid white;
+    box-shadow: 0 3px 10px;
+    border-radius: 7px;
     color: white;
     background-color: transparent;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
@@ -247,15 +250,21 @@ body {
 }
 
 .movie-card {
-    max-width: 200px;
-    /*border: 1px solid #000;*/
-    /*border-radius: 3px;*/
+    max-width: 220px;
+    min-width: 220px;
+    border: 1px solid #fcfbfb;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    box-shadow: -4px -5px 15px -5px #ccc;
+    margin-bottom: 5px;
 }
 
 .catalog-img-wrapper img {
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 4px 2px -2px gray;
     height: 300px;
     object-fit: cover;
     width: 100%;
@@ -314,16 +323,7 @@ body {
     top: 20px;
     left: 210px;
 }
-/*.form-container {*/
-/*    width: 700px;*/
-/*    height: 100%;*/
-/*    top: 418px;*/
-/*    left: 35%;*/
-/*    transform: translate(-50%, -50%);*/
-/*    background-color: white;*/
-/*    padding: 20px;*/
-/*    border-radius: 5px;*/
-/*}*/
+
 form{
     color: black;
 }
@@ -385,4 +385,36 @@ form{
 .movie-title{
     font-size: 100%;
     white-space: nowrap;
+}
+.edit-movie{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+}
+.movie-delete{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+}
+.edit-movie:hover{
+    color: #1E2033;
+    background-color: white;
+}
+.movie-delete:hover{
+     color: #1E2033;
+     background-color: white;
+ }
+.search-cancel{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 100px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+}
+.search-cancel:hover{
+    color: #1E2033;
+    background-color: white;
 }
