@@ -418,3 +418,51 @@ form{
     color: #1E2033;
     background-color: white;
 }
+.submit-edit-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 100px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+}
+.submit-edit-btn:hover{
+    color: #1E2033;
+    background-color: white;
+}
+.cancelEditBtn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 100px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+}
+.cancelEditBtn:hover{
+    color: #1E2033;
+    background-color: white;
+}
+.submit-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 100px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+}
+.submit-btn:hover{
+    color: #1E2033;
+    background-color: white;
+}
+.cancel{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 100px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+}
+.cancel:hover{
+    color: #1E2033;
+    background-color: white;
+}
