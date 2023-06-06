@@ -122,3 +122,67 @@ column.justify-top{
 .gap-10 {
     gap: 10px;
 }
+/*
+    Flexbox utilities
+*/
+.d-flex {
+    display: flex;
+}
+.d-flex.flex-column {
+    flex-direction: column;
+}
+.d-flex.justify-center {
+    justify-content: center;
+}
+.d-flex.justify-end {
+    justify-content: end;
+}
+.d-flex.justify-space-between {
+    justify-content: space-between;
+}
+.d-flex.justify-space-evenly {
+    justify-content: space-evenly;
+}
+.d-flex.justify-space-around {
+    justify-content: space-around;
+}
+.d-flex.align-center {
+    align-items: center;
+}
+.d-flex.align-end {
+    align-items: end;
+}
+.d-flex.align-self-stretch {
+    align-self: stretch;
+}
+.d-flex.full-width {
+    width: 100%;
+}
+
+/*
+    Misc. utility classes
+*/
+.gap-5 {
+    gap: 5px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-15 {
+    gap: 15px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-25 {
+    gap: 25px;
+}
+.gap-30 {
+    gap: 30px;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}

@@ -2,3 +2,4 @@
 *.iml
 .DS_Store
 js/keys.js
+node_modules
